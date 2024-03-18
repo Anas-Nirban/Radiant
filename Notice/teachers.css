@@ -1,0 +1,98 @@
+body {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Set text color to white */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Darker background for header */
+}
+
+h1 {
+    margin: 0; /* Remove margin for h1 */
+    font-size: 24px; /* Increase font size */
+}
+
+/* Grid Layout Styling */
+.scroll-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping */
+    padding: 20px 0; /* Add padding */
+}
+
+.teachers-container {
+    display: inline-block; /* Ensures horizontal scrolling */
+    padding: 0 20px; /* Add padding */
+    height: 200px;
+}
+
+/* Card-like Component Styling */
+.teacher-card {
+    background-color: #333; /* Darker background color */
+    color: #fff; /* Set text color to white */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow */
+    padding: 20px;
+    width: 400px; /* Fixed width for each card */
+    margin-right: 20px; /* Margin between cards */
+    display: inline-block; /* Prevents wrapping */
+}
+
+.teacher-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #fff; /* Add border around image */
+}
+
+.teacher-card h2 {
+    margin-bottom: 10px;
+    font-size: 20px; /* Increase font size */
+}
+
+.teacher-card p {
+    margin-bottom: 20px;
+    font-size: 16px; /* Increase font size */
+}
+
+/* Button Styling */
+.arrow-btn {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1;
+}
+/* Hide horizontal scrollbar but allow scrolling */
+.scroll-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+/* Hide the scrollbar */
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Chrome, Safari, and Opera */
+}
+
+/* Hide scrollbar in Firefox */
+.scroll-container {
+    scrollbar-width: none;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: transparent; /* Hide scrollbar track */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Hide scrollbar thumb */
+}
