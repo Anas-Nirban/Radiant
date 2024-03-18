@@ -1,8 +1,10 @@
+
 body {
     background-color: #1a1a1a; /* Dark background color */
     color: #fff; /* Set text color to white */
     margin: 0; /* Remove default margin */
-    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+    font-family:"Poppins", sans-serif; /* Use a common sans-serif font */
+    font-size: 12px;
 }
 
 /* Header Styling */
@@ -40,6 +42,7 @@ h1 {
     width: 400px; /* Fixed width for each card */
     margin-right: 20px; /* Margin between cards */
     display: inline-block; /* Prevents wrapping */
+    height: 480px;
 }
 
 .teacher-card img {
