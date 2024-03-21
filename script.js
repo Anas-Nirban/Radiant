@@ -44,7 +44,7 @@ function checkTime() {
   console.log("Current Time:", hours + ":" + minutes);
   
   // Check if it's 12:06 PM and anthem has not been played yet
-  if (hours === 12 && minutes === 45 && !anthemPlayed) {
+  if (hours === 23 && minutes === 54 && !anthemPlayed) {
     playNationalAnthem();
     // Set the flag to true to indicate that anthem has been played
     anthemPlayed = true;
