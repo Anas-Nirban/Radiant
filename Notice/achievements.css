@@ -1,6 +1,6 @@
 /* Basic Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family:"Poppins", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #121629; /* Light gray background */
@@ -10,7 +10,7 @@ body {
 header {
     background-color: #5264FF; /* Dark gray header background */
     color: #fff; /* White header text color */
-    padding: 20px;
+    padding: 6px;
     text-align: center;
 }
 
@@ -18,7 +18,7 @@ footer {
     background-color: #5264FF; /* Dark gray footer background */
     color: #fff; /* White footer text color */
     text-align: center;
-    padding: 20px;
+    padding: 6px;
     position: fixed;
     bottom: 0;
     width: 100%;

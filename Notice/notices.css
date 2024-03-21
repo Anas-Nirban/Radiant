@@ -1,0 +1,77 @@
+/* Basic Styling */
+body {
+    font-family:"Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121629; /* Light gray background */
+    color: #121629; /* Dark gray text color */
+}
+
+header {
+    background-color: #5264FF; /* Dark blue header background */
+    color: #fff; /* White header text color */
+    padding: 6px;
+    text-align: center;
+}
+
+footer {
+    background-color: #5264FF; /* Dark blue footer background */
+    color: #fff; /* White footer text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Notice Section Styling */
+.notice-section {
+    padding: 20px;
+}
+
+/* Notice Card Styling */
+.notice-card {
+    color: white;
+    background-color: #101634; /* White card background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Card shadow */
+    border-radius: 10px;
+    border: 2px solid #5264FF;
+    padding: 20px;
+    margin-bottom: 20px; /* Add space between notice cards */
+}
+
+.notice-card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #5264FF; /* Blue title color */
+}
+
+.notice-card p {
+    margin: 5px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #101634;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Change button style when hovered */
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Change button style when active (pressed) */
+.button:active {
+    background-color: white;
+    color: black;
+}
