@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements</title>
+    <link rel="stylesheet" href="achievements.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Achievements</h1>
+    </header>
+
+    <section class="achievement-section" id="studentsSection">
+        <h2 onclick="toggleSection('studentsSection')">Students Achievements</h2>
+        <div class="achievement-card">
+            <!-- Student achievement card 1 -->
+            <div class="achievement-details">
+                <h3>Name: Gaurav Prajapati (INFT), Geeta Medtiya (INFT), Prachi Sharma (CMPN), Craig Michael Dsouza (CMPN), Janhavi Ingle (INFT), Ninad Kangandul (INFT)</h3>
+                <p>Event: Smart India Hackathon (SIH)</p>
+                <p>Organiser: Ministry of Education India</p>
+                <p>Description: The Smart India Hackathon (SIH) is a government-led initiative in India, inviting students from various technical backgrounds to solve real-world challenges. Participants form teams and work intensively over a few days to develop innovative solutions to problem statements provided by government departments and industries. With mentorship from experts, teams refine their ideas, create prototypes, and prepare presentations. At the end of the hackathon, solutions are evaluated by a panel of judges, with winning teams awarded prizes and recognition. SIH promotes collaboration between academia, industry, and government, fostering innovation and entrepreneurship among students while addressing pressing societal issues.</p>
+            </div>
+            <div class="achievement-photo">
+                <img src="https://media.licdn.com/dms/image/D4D22AQH-IB9GYrvQLQ/feedshare-shrink_800/0/1703511005761?e=1714003200&v=beta&t=YTjPKjWybGMJjJW9j_C1qyNIWq0mJ87GZ6tWNWCOL24">
+            </div>
+        </div><br>
+        <hr style="border-color: #5264FF;"><br>
+        <div class="achievement-card">
+            <!-- Student achievement card 1 -->
+            <div class="achievement-details">
+                <h3>Name: Chris Dias (INFT), Parth Barai parbat Singh (CMPN), Vighnesh Mestry (INFT)</h3>
+                <p>Event: Hack IT Sapiens</p>
+                <p>Organiser: Poornima College of Engineering</p>
+                <p>Description: Hack IT Sapiens at Poornima College of Engineering is an annual hackathon event aimed at fostering innovation and problem-solving among students in the field of information technology (IT). Hosted by Poornima College of Engineering, the event brings together students from various technical backgrounds to collaborate and develop creative solutions to real-world challenges in the IT domain. Participants form teams and work intensively over a specified period, typically spanning a few days, to brainstorm ideas, develop prototypes, and present their solutions to a panel of judges. The hackathon encourages interdisciplinary collaboration, providing participants with mentorship, resources, and networking opportunities. Through Hack IT Sapiens, Poornima College of Engineering aims to nurture talent, promote entrepreneurship, and showcase the innovative potential of students in the IT field.</p>
+            </div>
+            <div class="achievement-photo">
+                <img src="https://media.licdn.com/dms/image/D4D22AQGrjYd_BBDAqA/feedshare-shrink_800/0/1682237051174?e=1714003200&v=beta&t=XU8MpZWGuwMaO2L2jYako9o_MWfVK2qvTOW-_CToPJU">
+            </div>
+        </div>
+        <!-- Add more student achievement cards here -->
+    </section>
+
+    <section class="achievement-section" id="teachersSection">
+        <h2 onclick="toggleSection('teachersSection')">Teachers Achievements</h2>
+        <div class="achievement-card">
+            <!-- Teacher achievement card 1 -->
+            <div class="achievement-details">
+                <h3>Name: Dr. Prachi Raut, Ms Mrinmoyee Mukherjee, Dr. Minal Lopes</h3>
+                <p>Event: YOGDAAN- Innovative and Best Teaching Pedagogy Presentation Competition (IBTPPC)</p>
+                <p>Organiser: Thakur College Of Engineering and Technology</p>
+                <p>Description: The 'YOGDAAN'- Innovative and Best Teaching Pedagogy Presentation Competition (IBTPPC) is an event aimed at showcasing innovative teaching methodologies and pedagogical practices in education. The competition invites educators, teachers, and education professionals to present their unique approaches to teaching and learning. The event provides a platform for participants to share their experiences, strategies, and techniques that have proven to be effective in enhancing student engagement, understanding, and overall learning outcomes.</p>
+            </div>
+            <div class="achievement-photo">
+                <img src="https://media.licdn.com/dms/image/D4D22AQEM8sOS0eMNRQ/feedshare-shrink_800/0/1704449208597?e=1714003200&v=beta&t=RysiQOBclTL3R5sXcIAs_HN4yNf1BJsV4sDOJNQV0e4" alt="Teacher Event Photo">
+            </div>
+        </div><br>
+        <hr style="border-color: #5264FF;"><br>
+        <div class="achievement-card">
+            <!-- Teacher achievement card 1 -->
+            <div class="achievement-details">
+                <h3>Name: Ms. Shree Jaswal</h3>
+                <p>Event: Professional Certitfication</p>
+                <p>Organiser: Six Sigma Yellow Belt</p>
+                <p>Description: he Six Sigma Yellow Belt (SSYB) professional certificate is a credential awarded to individuals who have completed training and demonstrated proficiency in the foundational concepts of Six Sigma methodology at the Yellow Belt level. Six Sigma is a data-driven approach to process improvement and quality management that aims to minimize defects and variations in processes, thereby enhancing efficiency and customer satisfaction. It employs a structured problem-solving methodology and statistical tools to identify, analyze, and eliminate sources of variation and waste within an organization.</p>
+            </div>
+            <div class="achievement-photo">
+                <img src="https://res.cloudinary.com/dp2lkhvd7/image/upload/v1710946106/jgrmb4dgqhnfn7ud6hdb.png" alt="Teacher Event Photo">
+            </div>
+        </div>
+
+
+        <!-- Add more teacher achievement cards here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Achievements</p>
+    </footer>
+
+    <script>
+        function toggleSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            var cards = section.querySelectorAll('.achievement-card');
+            cards.forEach(function(card) {
+                card.classList.toggle('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
+

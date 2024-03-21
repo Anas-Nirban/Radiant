@@ -1,0 +1,113 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121629; /* Light gray background */
+    color: #121629; /* Dark gray text color */
+}
+
+header {
+    background-color: #5264FF; /* Dark gray header background */
+    color: #fff; /* White header text color */
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #5264FF; /* Dark gray footer background */
+    color: #fff; /* White footer text color */
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Achievement Section Styling */
+.achievement-section {
+    padding: 20px;
+    background: #121629;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+.achievement-section::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers */
+}
+
+.achievement-section h2 {
+    margin-bottom: 10px;
+    color: white; /* Blue heading color */
+}
+
+/* Achievement Card Styling */
+.achievement-card {
+    flex-wrap: nowrap; /* Prevent cards from wrapping */
+    margin-bottom: 20px; /* Add space between cards */
+}
+
+.achievement-card:last-child {
+    margin-right: 20px; /* Add space to the right of the last card */
+}
+
+.achievement-details {
+    display: block;
+    color: wheat;
+    padding: 20px;
+    background-color: #5264FF; /* Dark blue background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Card shadow */
+    border-radius: 5px;
+    margin-right: 20px; /* Add space between cards */
+    min-width: 300px; /* Minimum width for each card */
+    margin-bottom: 20px; /* Add space between description and image */
+    word-wrap: break-word; /* Ensure content wraps onto next line */
+    white-space: pre-wrap; /* Wrap white spaces */
+    font-size: 20px;
+}
+
+.achievement-details h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.achievement-details p {
+    margin: 5px 0;
+}
+
+.achievement-photo {
+    flex-basis: 200px; /* Set width for photo */
+}
+
+.achievement-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #101634;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Change button style when hovered */
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Change button style when active (pressed) */
+.button:active {
+    background-color: white;
+    color: black;
+}

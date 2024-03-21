@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #121629;
     color: #ffff
 }
 
@@ -12,7 +12,7 @@ header, nav, section, footer {
 }
 
 header {
-    background-color: #333;
+    background-color: #5264FF;
     color: #fff;
     text-align: center;
 }
@@ -33,7 +33,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: #333;
+    background-color: #5264FF;
     color: #fff;
     text-align: center;
     position: fixed;
@@ -47,3 +47,62 @@ footer {
 }
 
 /* Add specific styles for different pages as needed */
+/* Basic styling for buttons */
+/* Basic styling for buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #101634;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Change button style when hovered */
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Change button style when active (pressed) */
+.button:active {
+    background-color: white;
+    color: black;
+}
+
+
+/* Centering the button grid */
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 15px; /* Adjust spacing between buttons */
+    margin-top: 150px; /* Adjust as needed */
+    justify-items: center; /* Center horizontally */
+}
+
+/* Add media queries for responsiveness */
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    nav ul {
+        padding-left: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    footer {
+        position: static;
+    }
+
+    .button-grid {
+        margin-top: 50px;
+    }
+}

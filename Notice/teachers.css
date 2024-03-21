@@ -1,6 +1,6 @@
 
 body {
-    background-color: #1a1a1a; /* Dark background color */
+    background-color: #121629; /* Dark background color */
     color: #fff; /* Set text color to white */
     margin: 0; /* Remove default margin */
     font-family:"Poppins", sans-serif; /* Use a common sans-serif font */
@@ -11,7 +11,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #333; /* Darker background for header */
+    background-color: #5264FF; /* Darker background for header */
 }
 
 h1 {
@@ -34,15 +34,15 @@ h1 {
 
 /* Card-like Component Styling */
 .teacher-card {
-    background-color: #333; /* Darker background color */
+    background-color: #121629; /* Darker background color */
     color: #fff; /* Set text color to white */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow */
     padding: 20px;
-    width: 400px; /* Fixed width for each card */
+    width: 420px; /* Fixed width for each card */
     margin-right: 20px; /* Margin between cards */
     display: inline-block; /* Prevents wrapping */
-    height: 480px;
+    height: 485px;
 }
 
 .teacher-card img {
@@ -98,4 +98,30 @@ h1 {
 
 .scroll-container::-webkit-scrollbar-thumb {
     background-color: transparent; /* Hide scrollbar thumb */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #101634;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Change button style when hovered */
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Change button style when active (pressed) */
+.button:active {
+    background-color: white;
+    color: black;
 }
